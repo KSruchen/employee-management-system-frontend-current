@@ -1,0 +1,148 @@
+.employee-form {
+  width: 100%;
+  max-width: 900px;
+  padding: 2em 2em;
+  margin: 2em auto;
+  background: #f9fafb;
+  border-radius: 22px;
+  box-shadow: 0 8px 36px rgba(50,70,140,0.11);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.form-section {
+  margin: 18px 0 14px 0;
+  font-weight: 700;
+  color: #3455a7;
+  font-size: 1.32em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem 2rem;
+  margin-bottom: 22px;
+}
+@media (max-width: 900px) {
+  .field-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.employee-form label {
+  font-weight: 600;
+  color: #32415d;
+  margin-bottom: 0.1em;
+  font-size: 1em;
+}
+
+.employee-form input,
+.employee-form select {
+  padding: 0.65em 1em;
+  font-size: 1.05em;
+  border-radius: 7px;
+  border: 1.1px solid #b9d0e7;
+  background: #f9fcff;
+  margin-bottom: 0.11em;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.employee-form input:focus, .employee-form select:focus {
+  border: 2px solid #3869e6;
+  box-shadow: 0 2px 6px #b2d4f9;
+}
+
+.employee-form span {
+  color: #d62828;
+  font-size: 0.92em;
+  margin-top: 0.05em;
+  display: block;
+}
+
+.employee-form button {
+  background: linear-gradient(90deg, #4e9af1 0%, #7fd8b6 100%);
+  color: #1d2235;
+  padding: 1em 4em;
+  font-size: 1.12em;
+  font-weight: 700;
+  box-shadow: 0 2px 9px #cde8f7;
+  border: none;
+  border-radius: 11px;
+  margin: 1.2em auto 0 auto;
+  cursor: pointer;
+  width: max-content;
+  display: block;
+}
+
+.employee-form button:hover {
+  background: linear-gradient(90deg, #7fd8b6 0%, #4e9af1 100%);
+  color: #244;
+}
+
+.temp-output {
+  max-width: 900px;
+  margin: 1.7em auto 0 auto;
+}
+/* React DatePicker refined look for EmployeeForm */
+/* Center month label, move arrows beside label, beautify arrows */
+/* Fix react-datepicker arrow navigation to sides of month label */
+.react-datepicker__header {
+  background: linear-gradient(90deg, #ddeaff 60%, #f3e7e9 100%);
+  border-bottom: 1.5px solid #b5bdd6;
+  border-radius: 10px 10px 0 0;
+  padding: 0.7em 0.3em;
+  position: relative;
+}
+
+/* Move nav arrows into correct horizontal position over header with absolute positioning */
+.react-datepicker__navigation {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  position: absolute !important;
+  top: 20px !important;
+  z-index: 2;
+}
+
+.react-datepicker__navigation--previous {
+  left: 18px !important;
+  right: auto;
+}
+
+.react-datepicker__navigation--next {
+  right: 18px !important;
+  left: auto;
+}
+
+.react-datepicker__current-month {
+  font-weight: 700;
+  font-size: 1.14em;
+  color: #22356a;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Shrink and color the arrows */
+.react-datepicker__navigation-icon {
+  margin-top: 2px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+.react-datepicker__navigation-icon:before {
+  border-color: #4173c1 !important;
+  border-width: 0 2.3px 2.3px 0 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  display: none !important;
+}
+
