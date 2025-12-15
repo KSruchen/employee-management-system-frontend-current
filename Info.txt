@@ -68,3 +68,5 @@ ALTER SESSION SET CONTAINER = orclpdb;
 ALTER PLUGGABLE DATABASE orclpdb OPEN;
 SHOW PDBS;
 
+
+https://drive.google.com/file/d/17ol7KyN0PEhplNW79j1vY3ux3D8C6ah2/view?usp=drive_link
