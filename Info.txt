@@ -78,3 +78,6 @@ ALTER USER sql_practice IDENTIFIED BY sql123 ACCOUNT UNLOCK;
 
 GRANT CONNECT, RESOURCE TO sql_practice;
 ALTER USER sql_practice QUOTA UNLIMITED ON USERS;
+
+
+https://drive.google.com/file/d/1myDRozzeIEm8yuyQH_G29w3-C_1io1Mr/view?usp=drivesdk
