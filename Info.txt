@@ -81,3 +81,10 @@ ALTER USER sql_practice QUOTA UNLIMITED ON USERS;
 
 
 https://drive.google.com/file/d/1myDRozzeIEm8yuyQH_G29w3-C_1io1Mr/view?usp=drivesdk
+
+
+
+https://drive.google.com/file/d/1WnBmUJSvBFI8pfU1oDFTz55yjdS0sx3o/view?usp=drivesdk
+
+
+https://docs.google.com/document/d/1QYusQCQllfS9b96p_lgiujUpbuYxzsV3/edit?usp=drivesdk&ouid=103932794206089057200&rtpof=true&sd=true
